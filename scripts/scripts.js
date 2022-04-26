@@ -1,1 +1,3 @@
 /* WRITE YOUR JS HERE... YOU MAY REQUIRE MORE THAN ONE JS FILE. IF SO SAVE IT SEPARATELY IN THE SCRIPTS DIRECTORY */
+
+<.startButton onclick="buildPlate.html">Get Started</button>
