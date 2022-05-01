@@ -26,76 +26,87 @@
     <div class="plateImage">
     </div>
 
-    <p style="font-size: 20px; color:#008CBA;">
-        <a href="index.html">Home</a>
-        <a href="buildPlate.html">Build Your Plate</a>
-        <a href="ingredients.html"> Ingredients</a>
-        <a href="about.html">About</a>
-        </p>
+    <nav>
+        <p style="font-size: 20px; color:#008CBA;">
+      
+            <p style="font-size: 20px; color:#008CBA;">
+              <a href="index.html">Home</a>
+              <a href="buildPlate.html">Build Your Plate</a>
+              <a href="ingredients.html"> Ingredients</a>
+              <a href="about.html">About</a>
+              </p>
+      </nav>
 
         <h3> We'll be asking some questions about the type and amount of exercise you completed today. Using this information we will be able to build you a plate of food that will help you thrive as an athlete.</h3>
-    <div class="container1">
-
-	
-        <h2>What Type Of Activity Did You Complete Today?</h2>
+        <head>
+            <title> Build Your Plate</title>
+        </head>
         
-        <div class="container">
-          <div class="buttons">
-            <a class="button1" target="_blank" rel="noopener">Easy Run</a>
-            <a class="button2" target="_blank" rel="noopener">Workout</a>
-            <a class="button3" target="_blank" rel="noopener">Cross Train</a>
-            <a class="button3" target="_blank" rel="noopener">Weight Lifting</a>
-          </div>
-        </div>
-  
-        <button class="nextButton1">NEXT</button>
-  
-  
-  
-        <h1>Here's Your Healthy Plate</h1>
-    
-    <img class="finalPlate" src="https://food-guide.canada.ca/sites/default/files/styles/square_400_x_400/public/2020-12/CFGPlate-crop400x400.jpg">
-  
-    <h3> Based on the information you provided, here's what an ideal plate of food is for you today!</h3>
-  
-    </div>
-    <div class="cards">
-  
-      <div class="card">
-        <div class="card_img card1">
-          <div class="plus">
-            <p>+</p>
-          </div>
-        </div>
-        <h3>50% Vegetables</h3>
-        <div class="line">
-        </div>
-        <p> description why </p>
-  
-      </div>
-      <div class="card">
-        <div class="card_img card2">
-          <div class="plus">
-            <p>+</p>
-          </div>
-        </div>
-        <h3>25% Protein</h3>
-        <div class="line">
-        </div>
-        <p> description why</p>
-      </div>
-      <div class="card">
-        <div class="card_img card3">
-          <div class="plus">
-            <p>+</p>
-          </div>
-        </div>
-        <h3>25% Grains</h3>
-        <div class="line">
-        </div>
-        <p>description why</p>
-      </div>
+        <body>
+        
+            <div class="quiz-container">
+                <div class="title">Build Your Plate</div>
+                <div id="question" class="question"></div>
+                <label class="option">
+                    <input type="radio" name="option" value="1" />
+                    <span class="option1"></span>
+                </label>
+                <label class="option">
+                    <input type="radio" name="option" value="2" />
+                    <span class="option2"></span>
+                </label>
+                <label class="option">
+                    <input type="radio" name="option" value="3" />
+                    <span class="option3"></span>
+                </label>
+                <!-- Buttons -->
+                <div class="controls">
+                    <button class="previous">Previous</button>
+                    <button class="next">Next</button>
+                </div>
+            </div>
+        
+            <div class="result">
+        
+            </div>
+        </body>
 
+      <div class="row">
+        <div class="platescolumn">
+          <div class="platescard">
+            <img src="https://static.onecms.io/wp-content/uploads/sites/35/2019/03/16185957/vegetarian-recipes-weight-loss.jpg" alt="Plate 1" style="width:100%">
+            <div class="platescontainer">
+              <h2>Plate #1</h2>
+              <p>50% Veggies, 25% Protein, 25% Carbs</p>
+              <p> Plate #1 is ideal if you've had a recovery or off day from training. </p>
+              <p><button class="button">Learn More</button></p>
+            </div>
+          </div>
+        </div>
       
+        <div class="platescolumn">
+          <div class="platescard">
+            <img src="https://static.onecms.io/wp-content/uploads/sites/44/2019/08/26232425/5614900.jpg" alt="Mike" style="width:100%">
+            <div class="platescontainer">
+              <h2>Plate #2</h2>
+              <p>33% Veggies, 33% Protein, 33% Carbs</p>
+              <p>Plate #2 is ideal if you've had a "normal" or medium training day.</p>
+              <p><button class="button">Learn More</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="platescolumn">
+          <div class="platescard">
+            <img src="https://assets.epicurious.com/photos/5c7d714e8918ee7ab68daf8c/1:1/w_3151,h_3151,c_limit/Broccoli-Bolognese-with-Orecchiette-Banza-27022019.jpg" alt="John" style="width:100%">
+            <div class="platescontainer">
+              <h2>Plate #3</h2>
+              <p>25% Veggies, 25% Protein, 50% Carbs</p>
+              <p>Plate #3 is ideal if you've had a harder day of training or a race.</p>
+              <p><button class="button">Learn More</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
   
       

@@ -1,5 +1,9 @@
 /* ===== YOUR CSS GOES HERE ===== */
 
+.nav{
+    font-family: "Impact";
+}
+
 .container {
         overflow: hidden;
       }
@@ -34,7 +38,7 @@
 a{
     color:#008CBA;
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
 }
 body {
     font-family: "Garamond", Verdana, sans-serif;
@@ -44,16 +48,15 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-    padding-top: 18em;
     background-color: #fafafa;
   }
   
   #main {
-    padding: 5px;
     padding-left: 20em;
     padding-right: 20em;
     background-color: #ffffff;
     border-radius: 0 0 5px 5px;
+    font-family: "Impact";
   }
   
   h1 {
@@ -68,6 +71,7 @@ body {
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
+    font-family: "Impact";
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -233,6 +237,221 @@ border: 5px solid $blue;
     background-image: url(https://www.foodbeverageinsider.com/sites/foodbeverageinsider.com/files/styles/article_featured_wide/public/FBI-DM-Grains-1540x800.jpg?itok=7xQ8uq7O);
   }
 
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Impact", sans-serif;
+    font-weight: 100;
+    line-height: 1.7rem;
+      background-color: white;
+      color: #008CBA;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+      padding-top: 18em;
+      background-color: #fafafa;
+    );
+   
+  }
+  
+  body::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999999;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+  }
+  
+  .quiz-container {
+    padding: 3rem;
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    background: #ECECEC;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-family:'Impact', sans-serif;
+    font-weight:bold;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing:4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+  }
+  .question {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    font-family:"Impact";
+    color:#008CBA;
+    text-transform:uppercase;
+    letter-spacing:1px;
+  } 
+  .option {
+    padding: 1rem;
+    color: white;
+    background: #008CBA;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+  }
+  .option:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .option input:checked .option {
+    background: #08038c;
+    color: orange;
+  }
+  .controls > * {
+    margin: 1rem;
+  }
+  button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: 300;
+    color: white;
+    outline: none;
+    transform: scale(0.98);
+    transition: all 0.2s;
+  }
+  button.previous {
+    background: orange;
+  }
+  button.next {
+    background: orange;
+  }
+  button.restart {
+    background: orange;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    transition: all 0.4s;
+  }
+  
+  button:hover,
+  button:focus {
+    transform: scale(1);
+    font-weight: 500;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    min-height: 100vh;
+  }
+  
+  .summary {
+    font-size: 1rem;
+    text-shadow: 1px 1px #ffffff50;
+    color: #008CBA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-center;
+    padding: 0 2rem;
+  }
+  .summary h1 {
+    align-self: center;
+  }
+
+  h3{
+      padding-left: 25%;
+      padding-right: 25%;
+  }
+
+  about.p{
+      padding-left: 30%;
+      padding-right: 30%;
+  }
+
+  .platescolumn {
+    float: left;
+    width: 33%;
+    margin-bottom: 10px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .platescolumn {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .platescard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: "Impact";
+  }
+  
+  .platescontainer {
+    padding: 0 16px;
+    font-family: "Garamond", Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .platescontainer::after,
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  h2 {
+    color: #008cba;
+    font-family: "Impact", sans-serif;
+    padding-left: 20%;
+    padding-right: 20%; 
+  }
+  
+  p{
+    font-family: "Rambla";
+    color: #008CBA;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    font-family: "Comic Sans";
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
 
 
 /* ===== START WITH GLOBAL STYLES THEN USE MEDIA QUERIES FOR LAYOUT ADJUSTMENTS ===== */
