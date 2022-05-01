@@ -7,7 +7,7 @@ const questions = [
       "answer1Total": "1",
       "answer2": "Easy Run or Cross Train",
       "answer2Total": "2",
-      "answer3": "Workout or Race",
+      "answer3": "Workout, Race, or Long Run",
       "answer3Total": "3"
     },
     {
@@ -106,14 +106,13 @@ const questions = [
       if(currentQuestion == totalQuestions) {
           container.style.display = 'none';
           result.innerHTML =
-           `<h1 class="final-score">Your score: ${totalScore}</h1>
+           `<h1 class="final-score">Your Activity Score: ${totalScore}</h1>
            <div class="summary">
-              <h1>Your Personal Plate</h1>
               <h2>Now that you have the point score correlated with your day, see below for which plate will be ideal to help you recover and thrive in your next session! </h2>
               <p>1 to 5 points - Plate #1</p>
               <p>6 to 9 points - Plate #2</p>
               <p>10+ points - Plate #3 </p>
-              <h2> Select Your Plate Below </h2>
+              <h2> See Your Plate Below </h2>
           </div>
           <button class="restart">Restart Quiz</button>
            `;
