@@ -468,6 +468,13 @@ border: 5px solid $blue;
       display: block;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .card {
+      width: 100%;
+      display: block;
+    }
+  }
   
   .platescard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -635,19 +642,16 @@ border: 5px solid $blue;
       }
       
       @media screen and (max-width: 800px) {
-        .card {
+        .ingredientcards {
           width: 45%;
           margin: 2.5%;
         }
       }
       
       @media screen and (max-width: 500px) {
-        .card {
+        .ingredientcards {
           width: 98%;
           margin: 2%;
         }
       }
-      .ingredientcards{
-        float: left;
-        width: 30%;
-    }
+
