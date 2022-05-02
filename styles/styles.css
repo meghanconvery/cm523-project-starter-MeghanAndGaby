@@ -573,6 +573,12 @@ border: 5px solid $blue;
     }
 }
 
+@media screen and (max-width: 850px)  {
+    .summary .h2{
+        width: 85%;
+    }
+}
+
 .quiz-container .title {
     font-size: 35px;
 }
