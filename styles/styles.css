@@ -32,10 +32,10 @@ a {
       h1{
           margin-top: 60px;
       }
+
       h3{
           margin-top:60px;
           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
       }
 
 
@@ -391,9 +391,14 @@ border: 5px solid $blue;
     align-self: center;
   }
 
+  .summary h2 {
+      padding-left: 20%;
+      padding-right: 20%;
+  }
+
   h3{
-      padding-left: 25%;
-      padding-right: 25%;
+      padding-left: 10%;
+      padding-right: 10%;
   }
 
   about.p{
@@ -560,4 +565,14 @@ border: 5px solid $blue;
 .plateimg{
     padding-bottom: 30px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 850px)  {
+    .h3{
+        width: 85%;
+    }
+}
+
+.quiz-container .title {
+    font-size: 35px;
 }
