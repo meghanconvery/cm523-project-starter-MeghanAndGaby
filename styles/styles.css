@@ -396,6 +396,13 @@ border: 5px solid $blue;
       padding-right: 20%;
   }
 
+  .summary .h2{
+    @media screen and (max-width: 800px) {
+        padding-left: 5%;
+        padding-right: 5%;
+  } 
+}
+
   h3{
       padding-left: 10%;
       padding-right: 10%;
@@ -569,12 +576,6 @@ border: 5px solid $blue;
 
 @media screen and (max-width: 850px)  {
     .h3{
-        width: 85%;
-    }
-}
-
-@media screen and (max-width: 850px)  {
-    .summary .h2{
         width: 85%;
     }
 }
