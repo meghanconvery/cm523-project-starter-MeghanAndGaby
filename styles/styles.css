@@ -29,9 +29,10 @@ a {
     z-index: 100;
   }
 
+
   @media screen and (max-width: 600px) {
-    .header {
-      font-size: 15px;
+    .navbar {
+      font-size: 8px;
     }
   }
 
