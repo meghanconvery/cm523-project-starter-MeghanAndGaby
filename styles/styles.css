@@ -74,9 +74,6 @@ a {
           ";
       }
 
-      h1{
-          margin-top: 60px;
-      }
 
       h3{
           margin-top:60px;
@@ -118,7 +115,11 @@ body {
     border-bottom: 3px solid orange;
     color: #008CBA;
     font-size: 30px;
+    padding-top:20px;
+    padding-bottom: 5px;
+
   }  
+
   .startButton {
     border: none;
     color: white;
@@ -494,6 +495,7 @@ border: 5px solid $blue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 20%;
     padding-right: 20%; 
+    padding-top: 5px;
   }
 
   
