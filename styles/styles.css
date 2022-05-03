@@ -564,9 +564,9 @@ border: 5px solid $blue;
   
   .teamcontainer {
     margin-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
-  
+
   .teamcontainer .team {
     width: auto;
     display: flex;

@@ -57,7 +57,7 @@ const questions = [
   const restartButton = document.querySelector('.restart');
   const result = document.querySelector('.result');
   
-  //Function to generate question 
+  //Generate question 
   function generateQuestions (index) {
       //Select each question by passing it a particular index
       const question = questions[index];
